@@ -331,7 +331,11 @@ form p {
 }
 .tips,
 .bmiLimitations {
-  margin-top: 10rem;
+  margin-top: 9rem;
+}
+
+.bmiLimitations {
+  margin-bottom: 7rem;
 }
 
 .your-results {
@@ -542,5 +546,3 @@ form p {
   }
 }
 
-  }
-}
