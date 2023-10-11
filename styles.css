@@ -54,7 +54,7 @@ h4 {
 
 .heroGrid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1.1fr 1fr;
   gap: 10%;
 }
 
@@ -83,6 +83,10 @@ h4 {
   justify-content: center;
   gap: 1.5rem;
   padding: 0;
+}
+
+.heroSectionLeft h1 {
+  max-width: 535px;
 }
 
 .heroSectionLeft p {
@@ -231,7 +235,7 @@ form p {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   align-items: end;
   gap: 1rem;
-  padding: 2rem 1rem 1rem 1rem;
+  padding: 1rem;
 }
 
 .grid-3 {
@@ -331,7 +335,7 @@ form p {
 }
 .tips,
 .bmiLimitations {
-  margin-top: 9rem;
+  margin-top: 8rem;
 }
 
 .bmiLimitations {
@@ -545,5 +549,6 @@ form p {
     }
   }
 }
+
 
 
