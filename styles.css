@@ -224,6 +224,9 @@ form p {
 .introDiv p {
   color: var(--white);
 }
+.introDiv h3 {
+  margin: 0.3rem 0;
+}
 
 .classification,
 .range {
@@ -236,6 +239,7 @@ form p {
   align-items: end;
   gap: 1rem;
   padding: 1rem;
+  margin-top: 2rem;
 }
 
 .grid-3 {
@@ -385,6 +389,7 @@ form p {
 
   .grid-2 {
     justify-items: center;
+    margin-top: 5rem;
   }
 
   .grid-2 div:nth-of-type(2) div:first-of-type,
@@ -425,6 +430,9 @@ form p {
   .resultImgDiv {
     position: relative;
     right: 100px;
+  }
+  .grid-2 {
+    margin-top: 0;
   }
   .grid-3 {
     grid-template-columns: 1fr;
@@ -549,6 +557,7 @@ form p {
     }
   }
 }
+
 
 
 
